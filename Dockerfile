@@ -37,6 +37,7 @@ RUN set -xe \
 
 COPY supervisord.conf /etc/
 COPY entry.sh /
+COPY gradle/ /root/.gradle
 
 
 CMD ["/entry.sh"]
