@@ -13,12 +13,12 @@ RUN set -xe \
     && apt-get update \
     && apt-get install -y git wget unzip
 
-RUN wget -q https://services.gradle.org/distributions/gradle-4.5.1-bin.zip \
-    && unzip gradle-4.5.1-bin.zip -d /opt \
-    && rm gradle-4.5.1-bin.zip
+RUN wget -q https://services.gradle.org/distributions/gradle-6.9.1-bin.zip \
+    && unzip gradle-6.9.1-bin.zip -d /opt \
+    && rm gradle-6.9.1-bin.zip
 
-ENV GRADLE_HOME /opt/gradle-4.5.1
-ENV PATH $PATH:/opt/gradle-4.5.1/bin
+ENV GRADLE_HOME /opt/gradle-6.9.1
+ENV PATH $PATH:/opt/gradle-6.9.1/bin
 
 RUN set -xe \
     && apt-get update \
