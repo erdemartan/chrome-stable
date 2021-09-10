@@ -1,5 +1,5 @@
 
-# google-chrome in docker
+# google-chrome in docker for Visium GO / Snapbytes BDD Library
 
 *Need to test some latest Chrome version's features?* but hestitant to
 upgrade your main browser to unstable? this chrome-in-docker project can help you
